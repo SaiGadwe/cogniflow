@@ -20,7 +20,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-from agents.director.chat_protocol import (
+from agents.director_agent.chat_protocol import (
     classify_intent, format_with_llm,
     STUDY_PLAN_PROMPT, OVERWHELM_PROMPT, SINGLE_FORMAT_PROMPT, PLAN_DAY_PROMPT,
 )
